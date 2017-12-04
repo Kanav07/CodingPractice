@@ -88,11 +88,10 @@ public class LongestPalindromeSubstring {
         //ArrayList<PalindromIndex> palindromIndices = new ArrayList<PalindromIndex>();
 
         for (int i = 0; i < size ; i++) {
-        // Assume the middle of the palindrome to be i
+            // Assume the middle of the palindrome to be i
             // find longest odd length palindrome with a[i] as middle element
             //find longest even length palindrome with a[i] as middle element
 
-            // check if the longer of the above palindrome is longer than the longest pandrom substring found yet
 
             //odd-length palindrome
             if (i > 0 && i < size-1 && a.charAt(i - 1) == a.charAt(i + 1)) {
@@ -108,7 +107,7 @@ public class LongestPalindromeSubstring {
                 palStartOdd = i;
                 palEndOdd = i;
             }
-
+            //even length palindrome
             if (i > 0  && a.charAt(i - 1) == a.charAt(i)) {
                 palStartEven = i - 1;
                 palEndEven = i ;
@@ -122,7 +121,7 @@ public class LongestPalindromeSubstring {
                 palStartEven = i;
                 palEndEven = i;
             }
-
+            // check if the longer of the above palindrome is longer than the longest palindrome substring found yet
             if ( palEndEven-palStartEven+1 > maxLengthPalindrome ){
                 maxPalStart = palStartEven;
                 maxPalEnd = palEndEven;
