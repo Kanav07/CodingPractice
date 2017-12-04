@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list id="085f66d6-8d24-4c0c-85e5-76dc2930c0d9" name="first commit" comment="" />
     <list id="fcc75f02-f62c-42d6-9fe8-03bacd7df287" name="This is my second commit, just a simple comment." comment="" />
-    <list default="true" id="2b602d44-6615-40d2-a40e-71be6e4c9187" name="Default" comment="">
+    <list default="true" id="2b602d44-6615-40d2-a40e-71be6e4c9187" name="Default" comment="o">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/SubString.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/AllFactors.java" afterPath="$PROJECT_DIR$/src/Questions/AllFactors.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/CountElementsOlognONLY.java" afterPath="$PROJECT_DIR$/src/Questions/CountElementsOlognONLY.java" />
@@ -25,8 +25,6 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/SpiralArray.java" afterPath="$PROJECT_DIR$/src/Questions/SpiralArray.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/WaveArray.java" afterPath="$PROJECT_DIR$/src/Questions/WaveArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Questions" afterPath="$PROJECT_DIR$/src/Questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Questions/LongestPalindromeSubstring.java" afterPath="$PROJECT_DIR$/src/Questions/LongestPalindromeSubstring.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="SubString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Questions/SubString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+            <state relative-caret-position="770">
+              <caret line="137" column="42" lean-forward="true" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -105,6 +103,7 @@
       <find>,</find>
       <find>bababbbbbbabbbaabbaaabbbaababa</find>
       <find>babaaa</find>
+      <find>babbabaabababbbababaababbaabbbaaaabaaabbab</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -455,17 +454,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20770289" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29023385" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29023385" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6244842" sideWeight="0.49676898" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49676898" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20840065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -479,7 +480,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -715,15 +715,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Questions/SubString.java</url>
-          <line>67</line>
+          <line>105</line>
           <properties />
-          <option name="timeStamp" value="105" />
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Questions/SubString.java</url>
-          <line>62</line>
+          <line>142</line>
           <properties />
-          <option name="timeStamp" value="106" />
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Questions/practice/RotateMatrix.java</url>
@@ -742,7 +742,7 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="107" />
+      <option name="time" value="113" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -756,6 +756,9 @@
         <watch expression="a.get(first)" language="JAVA" />
         <watch expression="a.get(last)" language="JAVA" />
         <watch expression="a.charAt(i)" language="JAVA" />
+        <watch expression="needle.charAt(i)" language="JAVA" />
+        <watch expression="needle.charAt(j)" language="JAVA" />
+        <watch expression="haystack.charAt(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1035,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Questions/SubString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+        <state relative-caret-position="770">
+          <caret line="137" column="42" lean-forward="true" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
           <folding />
         </state>
       </provider>
