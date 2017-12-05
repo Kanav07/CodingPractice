@@ -25,7 +25,7 @@ public class Strings {
         System.out.println(strReverse);*/
 
 
-            Random random = new Random();   // Create a random number generator
+          /*  Random random = new Random();   // Create a random number generator
             boolean gameOver = false;
             HandSign playerMove = HandSign.SCISSOR;
             HandSign computerMove;
@@ -101,6 +101,12 @@ public class Strings {
             System.out.printf("I won %d(%.2f%%). You won %d(%.2f%%).%n", numComputerWon,
                     100.0*numComputerWon/numTrials, numPlayerWon, 100.0*numPlayerWon/numTrials);
             System.out.println("Bye! ");
+*/
+
+            int b = 10;
+            String a = "kanav";
+            a = String.format("%-%dsbansal",b,a);
+            System.out.println(a);
         }
 
     }
