@@ -4,10 +4,15 @@
     <list id="085f66d6-8d24-4c0c-85e5-76dc2930c0d9" name="first commit" comment="" />
     <list id="fcc75f02-f62c-42d6-9fe8-03bacd7df287" name="This is my second commit, just a simple comment." comment="" />
     <list default="true" id="2b602d44-6615-40d2-a40e-71be6e4c9187" name="Default" comment="o">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/ContainerWithMostWater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/IntersectionOfSortedArrays.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/JustifiedText.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/LastWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/MinimumAbsoluteDifference.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/MultiplyStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/SortByColor.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/SubString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/ThreeSumZero.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/AllFactors.java" afterPath="$PROJECT_DIR$/src/Questions/AllFactors.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/CountElementsOlognONLY.java" afterPath="$PROJECT_DIR$/src/Questions/CountElementsOlognONLY.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/ImplementPowerFunction.java" afterPath="$PROJECT_DIR$/src/Questions/ImplementPowerFunction.java" />
@@ -39,79 +44,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LongestCommonPrefix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/LongestCommonPrefix.java">
+    <leaf>
+      <file leaf-file-name="MinimumAbsoluteDifference.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/MinimumAbsoluteDifference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+            <state relative-caret-position="72">
+              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="e#1597#1605#0" expanded="true" />
+                <element signature="method#solve#0;class#MinimumAbsoluteDifference#0" expanded="false" />
+                <marker date="1512560501000" expanded="false" signature="884:893" ph="&lt;~&gt;" />
+                <marker date="1512560501000" expanded="false" signature="1139:1148" ph="&lt;~&gt;" />
+                <marker date="1512560501000" expanded="false" signature="1395:1404" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestPalindromeSubstring.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/LongestPalindromeSubstring.java">
+      <file leaf-file-name="ThreeSumZero.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/ThreeSumZero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/SubString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiplyStrings.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Questions/MultiplyStrings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="140" column="5" lean-forward="false" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LastWord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/LastWord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JustifiedText.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/JustifiedText.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+            <state relative-caret-position="1525">
+              <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
               <folding>
-                <element signature="e#2557#2565#0" expanded="true" />
-                <element signature="e#3182#3190#0" expanded="true" />
+                <element signature="e#2551#2571#0" expanded="true" />
+                <element signature="e#4080#4100#0" expanded="true" />
+                <marker date="1512575671000" expanded="false" signature="1247:1256" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Strings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Strings.java">
+      <file leaf-file-name="IntersectionOfSortedArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/IntersectionOfSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="107" column="14" lean-forward="false" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            <state relative-caret-position="382">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1679#1688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/ContainerWithMostWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="68" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortByColor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Questions/SortByColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <element signature="e#367#376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/ArrayList.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#1779#1780#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +128,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="Class_With_Main_&amp;_Scan_Input" />
         <option value="Class_With_Main" />
+        <option value="Class_With_Main_&amp;_Scan_Input" />
       </list>
     </option>
   </component>
@@ -156,6 +160,7 @@
       <find>babbabaabababbbababaababbaabbbaaaabaaabbab</find>
       <find>wordsCursor</find>
       <find>,</find>
+      <find>:</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -205,11 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/ShapeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Shape.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Circle1.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Square.java" />
         <option value="$PROJECT_DIR$/src/com/company/Animal.java" />
         <option value="$PROJECT_DIR$/src/com/company/Cat.java" />
         <option value="$PROJECT_DIR$/src/com/company/Dog.java" />
@@ -256,6 +256,11 @@
         <option value="$PROJECT_DIR$/src/Questions/LongestPalindromeSubstring.java" />
         <option value="$PROJECT_DIR$/src/algorithmsBasics/Strings.java" />
         <option value="$PROJECT_DIR$/src/Questions/MultiplyStrings.java" />
+        <option value="$PROJECT_DIR$/src/Questions/MinimumAbsoluteDifference.java" />
+        <option value="$PROJECT_DIR$/src/Questions/ThreeSumZero.java" />
+        <option value="$PROJECT_DIR$/src/Questions/IntersectionOfSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/Questions/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/Questions/SortByColor.java" />
       </list>
     </option>
   </component>
@@ -279,10 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,6 +320,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,15 +349,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiplyStrings">
-    <configuration name="JustifiedText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SortByColor">
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.JustifiedText" />
+      <option name="MAIN_CLASS_NAME" value="Questions.ContainerWithMostWater" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -364,14 +369,14 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="LastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IntersectionOfSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.LastWord" />
+      <option name="MAIN_CLASS_NAME" value="Questions.IntersectionOfSortedArrays" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -383,14 +388,14 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="MultiplyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumAbsoluteDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.MultiplyStrings" />
+      <option name="MAIN_CLASS_NAME" value="Questions.MinimumAbsoluteDifference" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -402,14 +407,14 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SortByColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="algorithmsBasics.*" />
+          <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithmsBasics.Strings" />
+      <option name="MAIN_CLASS_NAME" value="Questions.SortByColor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -421,14 +426,14 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreeSumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.SubString" />
+      <option name="MAIN_CLASS_NAME" value="Questions.ThreeSumZero" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -468,19 +473,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Strings" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SubString" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JustifiedText" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LastWord" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MultiplyStrings" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MinimumAbsoluteDifference" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ThreeSumZero" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IntersectionOfSortedArrays" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ContainerWithMostWater" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SortByColor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MultiplyStrings" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Strings" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LastWord" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JustifiedText" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SubString" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SortByColor" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ContainerWithMostWater" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IntersectionOfSortedArrays" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ThreeSumZero" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MinimumAbsoluteDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +545,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20840065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21163167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -832,6 +837,30 @@
           <properties />
           <option name="timeStamp" value="126" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/ThreeSumZero.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/ThreeSumZero.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/ThreeSumZero.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/SortByColor.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Questions/practice/RotateMatrix.java</url>
           <line>62</line>
@@ -848,8 +877,16 @@
           </properties>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Questions/SortByColor.java</url>
+          <line>71</line>
+          <properties class="Questions.SortByColor" method="sortColorsSwappingApproach">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="128" />
+      <option name="time" value="135" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -858,45 +895,13 @@
         <watch expression="b.charAt(j)" language="JAVA" />
         <watch expression="a.charAt(j)" language="JAVA" />
         <watch expression="b.charAt(BIndex)" language="JAVA" />
+        <watch expression="a.get(i) == a.get(i-1)" language="JAVA" />
+        <watch expression="a.get(i)" language="JAVA" />
+        <watch expression="a.get(i-1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/Resizable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/Circle2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/TestDriverShapesInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/Movable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/MovablePoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/TestMovable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -942,13 +947,6 @@
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/SpiralArray.java" />
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/NobleInteger.java" />
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/MergeOverlappingIntervals.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/ArrayList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/swing/MenuItemLayoutHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9555">
@@ -973,34 +971,6 @@
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/NextPermutation.java" />
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/RotatedSortedArray.java" />
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/ImplementPowerFunction.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="class#SortTimes#0;class#Sort#0" expanded="false" />
-            <element signature="method#compare#0;class#SortTimesCompare#0;class#Sort#0" expanded="false" />
-            <element signature="method#main#0;class#Sort#0" expanded="false" />
-            <element signature="method#unSortList#0;class#Sort#0" expanded="false" />
-            <element signature="method#printList#0;class#Sort#0" expanded="false" />
-            <element signature="method#selectionSortExtraMemory#0;class#Sort#0" expanded="false" />
-            <element signature="method#selectionSortWithoutExtraMemory#0;class#Sort#0" expanded="false" />
-            <element signature="method#bubbleSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#quickSort#0;class#Sort#0" expanded="false" />
-            <element signature="e#20586#20604#0" expanded="false" />
-            <element signature="method#partitionList#0;class#Sort#0" expanded="false" />
-            <element signature="method#partition#0;class#Sort#0" expanded="false" />
-            <element signature="method#quickSort2#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomisedQuickSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomisedPartition#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1088,6 +1058,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/MultiplyStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="140" column="5" lean-forward="false" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Questions/SubString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1109,24 +1087,22 @@
         <state relative-caret-position="75">
           <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
           <folding>
-            <element signature="e#1597#1605#0" expanded="true" />
+            <element signature="e#1597#1605#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Strings.java">
+    <entry file="file://$PROJECT_DIR$/src/Questions/LastWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="107" column="14" lean-forward="false" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Questions/JustifiedText.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="304">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
             <element signature="e#2557#2565#0" expanded="true" />
@@ -1135,19 +1111,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/LastWord.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Strings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="107" column="14" lean-forward="false" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="class#SortTimes#0;class#Sort#0" expanded="false" />
+            <element signature="method#compare#0;class#SortTimesCompare#0;class#Sort#0" expanded="false" />
+            <element signature="method#main#0;class#Sort#0" expanded="false" />
+            <element signature="method#unSortList#0;class#Sort#0" expanded="false" />
+            <element signature="method#printList#0;class#Sort#0" expanded="false" />
+            <element signature="method#selectionSortExtraMemory#0;class#Sort#0" expanded="false" />
+            <element signature="method#selectionSortWithoutExtraMemory#0;class#Sort#0" expanded="false" />
+            <element signature="method#bubbleSort#0;class#Sort#0" expanded="false" />
+            <element signature="method#insertionSort#0;class#Sort#0" expanded="false" />
+            <element signature="method#mergeSort#0;class#Sort#0" expanded="false" />
+            <element signature="method#merge#0;class#Sort#0" expanded="false" />
+            <element signature="method#quickSort#0;class#Sort#0" expanded="false" />
+            <element signature="e#20586#20604#0" expanded="false" />
+            <element signature="method#partitionList#0;class#Sort#0" expanded="false" />
+            <element signature="method#partition#0;class#Sort#0" expanded="false" />
+            <element signature="method#quickSort2#0;class#Sort#0" expanded="false" />
+            <element signature="method#randomisedQuickSort#0;class#Sort#0" expanded="false" />
+            <element signature="method#randomisedPartition#0;class#Sort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/ThreeSumZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding>
+            <element signature="e#2551#2571#0" expanded="true" />
+            <element signature="e#4080#4100#0" expanded="true" />
+            <marker date="1512575671000" expanded="false" signature="1247:1256" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/MinimumAbsoluteDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="method#solve#0;class#MinimumAbsoluteDifference#0" expanded="false" />
+            <marker date="1512560501000" expanded="false" signature="884:893" ph="&lt;~&gt;" />
+            <marker date="1512560501000" expanded="false" signature="1139:1148" ph="&lt;~&gt;" />
+            <marker date="1512560501000" expanded="false" signature="1395:1404" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/IntersectionOfSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#1679#1688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="68" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/MultiplyStrings.java">
+    <entry file="file://$PROJECT_DIR$/src/Questions/SortByColor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="140" column="5" lean-forward="false" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="63">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#376#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
