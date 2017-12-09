@@ -4,7 +4,10 @@
     <list id="085f66d6-8d24-4c0c-85e5-76dc2930c0d9" name="first commit" comment="" />
     <list id="fcc75f02-f62c-42d6-9fe8-03bacd7df287" name="This is my second commit, just a simple comment." comment="" />
     <list default="true" id="2b602d44-6615-40d2-a40e-71be6e4c9187" name="Default" comment="o">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/AddTwoNumAsLinkedLists.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/ContainerWithMostWater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/DetectingALoop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/IntersectionOfSortedArrays.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/JustifiedText.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/KReverseLinkedList.java" />
@@ -12,6 +15,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/LastWord.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/MinimumAbsoluteDifference.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/MultiplyStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/ReverseLinkListMtoN.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/SortByColor.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/SubString.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/ThreeSumZero.java" />
@@ -36,8 +40,6 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/SetMatrixZeroes.java" afterPath="$PROJECT_DIR$/src/Questions/SetMatrixZeroes.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/SpiralArray.java" afterPath="$PROJECT_DIR$/src/Questions/SpiralArray.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Questions/practice/WaveArray.java" afterPath="$PROJECT_DIR$/src/Questions/WaveArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Questions" afterPath="$PROJECT_DIR$/src/Questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithmsBasics/Strings.java" afterPath="$PROJECT_DIR$/src/algorithmsBasics/Strings.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,18 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,15 +76,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KReverseLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KReverseLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Questions/KReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="78">
+              <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#reverseList#0;class#KReverseLinkedList#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumAsLinkedLists.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/AddTwoNumAsLinkedLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="118" column="64" lean-forward="true" selection-start-line="118" selection-start-column="64" selection-end-line="155" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AddTwoList#0;class#AddTwoNumAsLinkedLists#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSortLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="54" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#insertionSortList#0;class#InsertionSortLinkedList#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseLinkListMtoN.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/ReverseLinkListMtoN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#reverseBetween#0;class#ReverseLinkListMtoN#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetectingALoop.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Questions/DetectingALoop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-73">
+              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchforaRange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/SearchforaRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotatedSortedArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/RotatedSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,8 +176,8 @@
       <list>
         <option value="Interface" />
         <option value="Class_With_Main_&amp;_Scan_Input" />
-        <option value="Class_With_Main" />
         <option value="Class" />
+        <option value="Class_With_Main" />
       </list>
     </option>
   </component>
@@ -149,6 +209,7 @@
       <find>wordsCursor</find>
       <find>,</find>
       <find>:</find>
+      <find>32018</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -199,10 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/TestDriver.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GeometricObject.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Resizable.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Circle2.java" />
         <option value="$PROJECT_DIR$/src/com/company/ResizableCircle.java" />
         <option value="$PROJECT_DIR$/src/com/company/TestDriverShapesInterface.java" />
         <option value="$PROJECT_DIR$/src/com/company/Point.java" />
@@ -250,6 +307,10 @@
         <option value="$PROJECT_DIR$/src/algorithmsBasics/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/algorithmsBasics/ListNode.java" />
         <option value="$PROJECT_DIR$/src/Questions/KReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Questions/AddTwoNumAsLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Questions/ReverseLinkListMtoN.java" />
+        <option value="$PROJECT_DIR$/src/Questions/DetectingALoop.java" />
       </list>
     </option>
   </component>
@@ -338,15 +399,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KReverseLinkedList">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DetectingALoop">
+    <configuration name="AddTwoNumAsLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.ContainerWithMostWater" />
+      <option name="MAIN_CLASS_NAME" value="Questions.AddTwoNumAsLinkedLists" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
+    <configuration name="DetectingALoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Questions.DetectingALoop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
+    <configuration name="InsertionSortLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Questions.InsertionSortLinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -377,52 +476,14 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="KthSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseLinkListMtoN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.KthSmallestElement" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithmsBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithmsBasics.LinkedList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
-    <configuration name="SortByColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.SortByColor" />
+      <option name="MAIN_CLASS_NAME" value="Questions.ReverseLinkListMtoN" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -462,19 +523,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ContainerWithMostWater" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SortByColor" />
-      <item index="2" class="java.lang.String" itemvalue="Application.KthSmallestElement" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LinkedList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.KReverseLinkedList" />
+      <item index="0" class="java.lang.String" itemvalue="Application.KReverseLinkedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AddTwoNumAsLinkedLists" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InsertionSortLinkedList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkListMtoN" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DetectingALoop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.KReverseLinkedList" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LinkedList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.KthSmallestElement" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SortByColor" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ContainerWithMostWater" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DetectingALoop" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReverseLinkListMtoN" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InsertionSortLinkedList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AddTwoNumAsLinkedLists" />
+        <item index="4" class="java.lang.String" itemvalue="Application.KReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -526,19 +587,19 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20770289" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4002751" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29023385" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21163167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21163167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4002751" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4002751" sideWeight="0.49353796" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -879,6 +940,72 @@
           <properties />
           <option name="timeStamp" value="153" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/KReverseLinkedList.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/ReverseLinkListMtoN.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/ReverseLinkListMtoN.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/DetectingALoop.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/DetectingALoop.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/DetectingALoop.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Questions/practice/RotateMatrix.java</url>
           <line>62</line>
@@ -903,8 +1030,16 @@
           </properties>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java</url>
+          <line>61</line>
+          <properties class="Questions.InsertionSortLinkedList" method="insertionSortList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="154" />
+      <option name="time" value="172" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -921,24 +1056,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Questions/practice/NobleInteger.java" />
-    <entry file="file://$PROJECT_DIR$/src/Questions/practice/MergeOverlappingIntervals.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/swing/MenuItemLayoutHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9555">
-          <caret line="638" column="22" lean-forward="false" selection-start-line="638" selection-start-column="22" selection-end-line="638" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Math.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/practice/AllFactors.java" />
-    <entry file="file://$PROJECT_DIR$/src/Questions/practice/SetMatrixZeroes.java" />
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/WaveArray.java" />
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/MinStepsInInfiniteGrid.java" />
     <entry file="file://$PROJECT_DIR$/src/Questions/practice/PrettyPrint.java" />
@@ -1174,32 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="184" column="2254" lean-forward="true" selection-start-line="182" selection-start-column="23" selection-end-line="184" selection-end-column="2254" />
-          <folding>
-            <element signature="class#SortTimes#0;class#Sort#0" expanded="false" />
-            <element signature="method#compare#0;class#SortTimesCompare#0;class#Sort#0" expanded="false" />
-            <element signature="method#main#0;class#Sort#0" expanded="false" />
-            <element signature="method#printList#0;class#Sort#0" expanded="false" />
-            <element signature="method#selectionSortExtraMemory#0;class#Sort#0" expanded="false" />
-            <element signature="method#selectionSortWithoutExtraMemory#0;class#Sort#0" expanded="false" />
-            <element signature="method#bubbleSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#quickSort#0;class#Sort#0" expanded="false" />
-            <element signature="e#20586#20604#0" expanded="false" />
-            <element signature="method#partitionList#0;class#Sort#0" expanded="false" />
-            <element signature="method#partition#0;class#Sort#0" expanded="false" />
-            <element signature="method#quickSort2#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomisedQuickSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomisedPartition#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1207,14 +1298,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/AllFactors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,13 +1321,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/KReverseLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Questions/AllFactors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="158">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/AddTwoNumAsLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="118" column="64" lean-forward="true" selection-start-line="118" selection-start-column="64" selection-end-line="155" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#reverseList#0;class#KReverseLinkedList#0" expanded="false" />
+            <element signature="method#AddTwoList#0;class#AddTwoNumAsLinkedLists#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/KReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/SearchforaRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/RotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="163" column="37" lean-forward="false" selection-start-line="163" selection-start-column="37" selection-end-line="163" selection-end-column="37" />
+          <folding>
+            <element signature="class#SortTimes#0;class#Sort#0" expanded="false" />
+            <element signature="method#compare#0;class#SortTimesCompare#0;class#Sort#0" expanded="false" />
+            <element signature="method#main#0;class#Sort#0" expanded="false" />
+            <element signature="method#unSortList#0;class#Sort#0" expanded="false" />
+            <element signature="method#printList#0;class#Sort#0" expanded="false" />
+            <element signature="method#selectionSortExtraMemory#0;class#Sort#0" expanded="false" />
+            <element signature="method#selectionSortWithoutExtraMemory#0;class#Sort#0" expanded="false" />
+            <element signature="method#bubbleSort#0;class#Sort#0" expanded="false" />
+            <element signature="e#20586#20604#0" expanded="false" />
+            <element signature="method#randomisedQuickSort#0;class#Sort#0" expanded="false" />
+            <element signature="method#randomisedPartition#0;class#Sort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertionSortList#0;class#InsertionSortLinkedList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/ReverseLinkListMtoN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#reverseBetween#0;class#ReverseLinkListMtoN#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/DetectingALoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

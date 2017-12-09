@@ -57,7 +57,7 @@ public class KReverseLinkedList {
 
         long start = System.nanoTime();
         //call function here.....
-        ListNode print = reverseList(head,k);
+        ListNode print = reverseListBEST(head,k);
         long end = System.nanoTime();
         while (print!= null) {
             System.out.print(print.val + " ");
@@ -108,6 +108,27 @@ public class KReverseLinkedList {
 
 
         return head;
+    }
+
+
+    public static ListNode reverseListBEST(ListNode node, int B) {
+        ListNode current = node;
+        ListNode previous = null;
+        ListNode next = null;
+
+        int count=B;
+        while(count-->0 && current!=null){
+            next=current.next;
+            current.next=previous;
+            previous=current;
+            current=next;
+        }
+
+        if(current!=null){
+            node.next=reverseListBEST(current, B);
+        }
+
+        return previous;
     }
 
 
