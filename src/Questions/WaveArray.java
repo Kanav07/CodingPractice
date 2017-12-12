@@ -3,10 +3,14 @@ package Questions;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
+import java.util.Stack;
 
 //https://www.interviewbit.com/problems/wave-array/
 // 4 1 2 3 4
 // 5 5 1 3 2 4
+
+
+
 
 public class WaveArray {
     public static void main(String[] args) {
@@ -31,6 +35,9 @@ public class WaveArray {
         end = System.nanoTime();
         for (Integer x : outputList) System.out.print(x + " ");
         System.out.println("\nTime taken : " + (end - start));
+
+
+
 
     }
     public  static ArrayList<Integer> wave(ArrayList<Integer> a) {
@@ -61,5 +68,7 @@ public class WaveArray {
         }
         return result;
     }
+
+
 
 }
