@@ -24,14 +24,18 @@ STATS
 WRITE asd asdas
 WRITE asda sfssf
 WRITE afajf sdkjfks
+STATS
 WRITE sfs uferf
 WRITE sfu sfrsfs
 WRITE aea rfr
 STATS
 READ abc
 READ sfu
+WRITE ghi jkl
 WRITE tgeuw edhwse
 READ sfu
+READ xxxxx
+STATS
 exit
 
 
@@ -113,6 +117,7 @@ public class CacheManager {
 
         while (currCache!=null){
             if (currCache.write(key, value)) writeTimeTaken += currCache.getWriteTime() + currCache.getReadTime() ;
+            else writeTimeTaken += currCache.getReadTime();
             currCache = currCache.getNextLevel();
         }
 
@@ -142,7 +147,8 @@ public class CacheManager {
             currCache = currCache.getPrevLevel();
         }
 
-        System.out.println("Value at "+ searchKey + " is " + searchResult);
+        if ( searchResult!=null )System.out.println("Value at "+ searchKey + " is " + searchResult);
+        else System.out.println("Value at "+ searchKey + " NOT FOUND");
         noOfReadOperations++;
         readTime += readTimeTaken;
         System.out.println("Read Time : " + readTimeTaken);
