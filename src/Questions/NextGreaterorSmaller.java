@@ -1,7 +1,6 @@
 package Questions;
 
 import algorithmsBasics.ListNode;
-import com.kanav.oopBasics.A;
 
 import java.util.*;
 
