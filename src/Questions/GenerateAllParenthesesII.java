@@ -24,7 +24,7 @@ Make sure the returned list of strings are sorted.
 public class GenerateAllParenthesesII {
     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
-        int  input = 3;
+        int  input = 10;
 
 //        ArrayList<Integer> inputList = new ArrayList<Integer>();
 //        for (int i = 0; i < inputListSize; i++) {

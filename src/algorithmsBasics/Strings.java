@@ -106,7 +106,7 @@ public class Strings {
             int b = 10;
             String a = "kanav";
             //a = String.format("%-%dsbansal",b,a);
-            a = a.substring(1);
+            a = a.substring(0,2);
         System.out.println(a);
         }
 

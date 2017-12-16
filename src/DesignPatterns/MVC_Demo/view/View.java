@@ -1,13 +1,15 @@
 package DesignPatterns.MVC_Demo.view;
 
 
+import DesignPatterns.MVC_Demo.model.Database;
 import DesignPatterns.MVC_Demo.model.Model;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 
 public class View extends JFrame implements ActionListener {
@@ -84,6 +86,19 @@ public class View extends JFrame implements ActionListener {
 		
 		okButton.addActionListener(this);
 
+		final Database database = Database.getInstance();
+
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowOpened(WindowEvent windowEvent) {
+				database.connect();
+			}
+
+			@Override
+			public void windowClosed(WindowEvent windowEvent) {
+				database.disconnect();
+			}
+		});
 		
 		setSize(600, 500);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
