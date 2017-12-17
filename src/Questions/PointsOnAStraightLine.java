@@ -98,6 +98,8 @@ public class PointsOnAStraightLine {
 
 
         HashMap<Line,HashMap<Integer,Integer>> map = new HashMap<Line, HashMap<Integer, Integer>>();
+        // The hashmap will store the attributes of the line, and a record of all the points that lie on it.
+        // Instead of maintaining a list of points , keeping a Hashmap in which the index of the points will be stored to avoid repeitions. Eg, if a , b ,c lie on the same line ( m,c ) and the Hashmap already has an entry ( m,c) --> (a,b), then when the points b & c will be checked, only c will be added to the entry ( m,c)
         Line temp = new Line(0,0);
         int maxPoints = 0;
 
@@ -121,6 +123,7 @@ public class PointsOnAStraightLine {
                 temp.c = constant;
 
                 if ( !map.containsKey(temp)) {
+                    // storing the Line
                     HashMap<Integer,Integer> points = new HashMap<Integer, Integer>();
                     points.put(i,1);
                     points.put(j,1);
