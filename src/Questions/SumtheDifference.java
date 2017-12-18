@@ -42,6 +42,11 @@ Expected : 293358721
 My Code :  160870738
            1000000007
 
+
+40 9 8 3 6 2 7 1 0 11 13 16 23 14 10 42 4 12 99 78 34 20 92 84 67 64 39 61 80 22 93 19 70 62 9 88 44 30 94 17 43
+
+30 9 8 3 6 2 7 1 0 17 4 9 8 3 6 2 7 1 0 17 4 11 13 16 23 14 10 42 4 12
+40 12 99 78 34 20 92 84 67 64 39 9 8 3 6 2 7 1 0 11 13 4 11 13 16 23 14 10 42 4 12 67 64 39 61 80 22 93 19 70 62
 */
 
 public class SumtheDifference {
@@ -58,6 +63,12 @@ public class SumtheDifference {
         //call function here.....
         System.out.println(solve(inputList));
         long end = System.nanoTime();
+        System.out.println("\nTime taken : " + (end - start));
+
+         start = System.nanoTime();
+        //call function here.....
+        System.out.println(maxMin(inputList));
+         end = System.nanoTime();
         System.out.println("\nTime taken : " + (end - start));
 
     }
@@ -102,12 +113,19 @@ public class SumtheDifference {
     public static int solve( ArrayList<Integer> A){
         if ( A.size() == 0 ) return 0;
         long output=0;
+        int size = A.size();
         Collections.sort(A);
-        for (int i = 0; i < A.size(); i++) {
-            for (int j = A.size()-1; j >=i ; j--) {
-                // output = output + (A.get(j) - A.get(i))*pow(2,j-1-1)
-                output = (output%1000000007 + (((A.get(j) - A.get(i))%1000000007)*(powMod(2,j-i-1,1000000007)))%1000000007)%1000000007;
-            }
+//        for (int i = 0; i < A.size(); i++) {
+//            for (int j = A.size()-1; j >=i ; j--) {
+//                // output = output + (A.get(j) - A.get(i))*pow(2,j-1-1)
+//                output = (output%MOD + (((A.get(j) - A.get(i))%MOD)*(powMod(2,j-i-1,MOD)))%MOD)%MOD;
+//            }
+//        }
+
+        // y= |_sum_{{i=0} tot {n-1}| {arr({n-i-1})x({2^{n-i-1}  - 2^{i}})}}
+        for (int i = 0; i < size; i++) {
+            output = (output +
+                    ((A.get(size -i -1)%MOD)*((powMod(2,size-i-1,MOD)) - (powMod(2,i,MOD)))%MOD)%MOD)%MOD;
         }
         return (int)output;
 
@@ -124,6 +142,28 @@ public class SumtheDifference {
         }
         return res;
     }
+
+    public static int MOD = 1000000007;
+    // function for sum of max min difference
+    public static long maxMin (ArrayList<Integer> arr)
+    {
+        // sort all  numbers
+        Collections.sort(arr);
+
+        // iterate over array and with help of
+        // horner's rule calc max_sum and min_sum
+        long min_sum = 0, max_sum = 0;
+        for (int i = 0; i < arr.size(); i++)
+        {
+            max_sum = 2 * max_sum + arr.get(arr.size() - 1 - i);
+            max_sum %= MOD;
+            min_sum = 2 * min_sum + arr.get(i);
+            min_sum %= MOD;
+        }
+
+        return max_sum - min_sum;
+    }
+
 }
 
 /* SOLUTION APPROACH

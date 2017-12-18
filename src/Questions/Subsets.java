@@ -45,6 +45,24 @@ If S = [1,2,3], a solution is:
  SUBSET 7 : 2 3
  SUBSET 8 : 3
 
+
+ SUBSET 1 :
+ SUBSET 2 : 1
+ SUBSET 3 : 1 2         +++++
+ SUBSET 4 : 1 2 3       =====
+ SUBSET 5 : 1 2 3 4     -----
+ SUBSET 6 : 1 2 4       -----
+ SUBSET 7 : 1 3         =====
+ SUBSET 8 : 1 3 4       -----
+ SUBSET 9 : 1 4         -----
+ SUBSET 10 : 2
+ SUBSET 11 : 2 3        """"""
+ SUBSET 12 : 2 3 4      ```````
+ SUBSET 13 : 2 4        ```````
+ SUBSET 14 : 3
+ SUBSET 15 : 3 4        :::::::
+ SUBSET 16 : 4
+
 8 1 4 2 6 3 7 8 9
     Expected :
     My Code : 

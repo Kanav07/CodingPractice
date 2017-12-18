@@ -40,8 +40,10 @@ public class isBST {
         }
 
         TreeNode root = TreeNode.InsertIntoTree(inputList);
+        Node root2 = BTreePrint.InsertIntoTree(inputList);
         //TreeNode.prettyPrintTree(root);
-        TreeNode.print2DUtil(root,0);
+        //TreeNode.print2DUtil(root,0);
+        BTreePrint.printNode(root2);
         long start = System.nanoTime();
         //call function here.....
         System.out.println(isValidBST(root));
@@ -62,6 +64,7 @@ public class isBST {
 
     }
 }
+
 
 /* SOLUTION APPROACH
 
