@@ -105,6 +105,7 @@ public class SumtheDifference {
         Collections.sort(A);
         for (int i = 0; i < A.size(); i++) {
             for (int j = A.size()-1; j >=i ; j--) {
+                // output = output + (A.get(j) - A.get(i))*pow(2,j-1-1)
                 output = (output%1000000007 + (((A.get(j) - A.get(i))%1000000007)*(powMod(2,j-i-1,1000000007)))%1000000007)%1000000007;
             }
         }
