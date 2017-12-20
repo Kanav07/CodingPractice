@@ -17,8 +17,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/EvaluateExpression.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/GenerateAllParenthesesII.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/GrayCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/IdenticalBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/InOrderTraversal.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/IntersectionOfSortedArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/IsBalancedBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/IsSymmetricTree.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/JustifiedText.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/KReverseLinkedList.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/KthSmallestElement.java" />
@@ -34,6 +38,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/NextGreaterorSmaller.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/Permutations.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/PointsOnAStraightLine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/PostOrderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/PreOrderTraversal.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/RedundantBraces.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/ReverseLinkListMtoN.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/SimplifyPath.java" />
@@ -46,6 +52,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/ThreeSumZero.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/TreeNode.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/TwoSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/VerticalOrderTraversal.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Questions/isBST.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithmsBasics/LinkedList.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithmsBasics/ListNode.java" />
@@ -127,68 +134,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithmsBasics/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="166" column="52" lean-forward="true" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="52" />
-              <folding>
-                <element signature="class#SortTimes#0;class#Sort#0" expanded="false" />
-                <element signature="method#compare#0;class#SortTimesCompare#0;class#Sort#0" expanded="false" />
-                <element signature="method#main#0;class#Sort#0" expanded="false" />
-                <element signature="method#printList#0;class#Sort#0" expanded="false" />
-                <element signature="method#selectionSortExtraMemory#0;class#Sort#0" expanded="false" />
-                <element signature="method#selectionSortWithoutExtraMemory#0;class#Sort#0" expanded="false" />
-                <element signature="method#bubbleSort#0;class#Sort#0" expanded="false" />
-                <element signature="e#20586#20604#0" expanded="false" />
-                <element signature="method#randomisedQuickSort#0;class#Sort#0" expanded="false" />
-                <element signature="method#randomisedPartition#0;class#Sort#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4335">
-              <caret line="293" column="0" lean-forward="false" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Questions/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="615">
+              <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SumtheDifference.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Questions/SumtheDifference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding>
-                <element signature="e#6595#6604#0" expanded="true" />
-                <marker date="1513605494000" expanded="false" signature="5828:5837" ph="&lt;~&gt;" />
-                <marker date="1513605494000" expanded="false" signature="6483:6773" ph="{...}" />
+                <element signature="method#prettyPrintTree#0;class#TreeNode#0" expanded="false" />
+                <element signature="method#print2DUtil#0;class#TreeNode#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -197,7 +151,7 @@
       <file leaf-file-name="Subsets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Questions/Subsets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="900">
               <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="31" />
               <folding />
             </state>
@@ -207,36 +161,104 @@
       <file leaf-file-name="isBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Questions/isBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="-159">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#MaxorMin#0;class#isBST#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTreePrint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/BTreePrint.java">
+      <file leaf-file-name="VerticalOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/VerticalOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="245">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="38" />
               <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#699#705#0" expanded="true" />
-                <element signature="e#2067#2076#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4981#4990#0" expanded="true" />
+                <element signature="e#6331#6351#0" expanded="true" />
+                <element signature="e#6479#6508#0" expanded="true" />
+                <element signature="e#7332#7352#0" expanded="true" />
+                <element signature="e#7443#7453#0" expanded="true" />
+                <element signature="e#7506#7515#0" expanded="true" />
+                <element signature="e#7629#7658#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTreePrinterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Questions/BTreePrinterTest.java">
+      <file leaf-file-name="IsBalancedBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/IsBalancedBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="434">
+              <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="60" selection-end-column="36" />
+              <folding>
+                <element signature="e#916#925#0" expanded="true" />
+                <element signature="e#2530#2531#0" expanded="true" />
+                <element signature="e#2577#2578#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsSymmetricTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Questions/IsSymmetricTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="119" selection-end-column="5" />
+              <folding>
+                <element signature="e#1825#1835#0" expanded="true" />
+                <element signature="e#1885#1895#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdenticalBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/IdenticalBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/PostOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="34" selection-end-column="2" />
+              <folding>
+                <element signature="method#main#0;class#PostOrderTraversal#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/InOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+              <folding>
+                <element signature="method#inOrderTraversal#0;class#InOrderTraversal#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Questions/PreOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="85" column="5" lean-forward="false" selection-start-line="68" selection-start-column="66" selection-end-line="85" selection-end-column="5" />
+              <folding>
+                <element signature="method#PreOrderTraversal#0;class#PreOrderTraversal#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,19 +269,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class_With_Main" />
         <option value="Singleton" />
-        <option value="Class_With_Main_&amp;_Scan_Input" />
         <option value="Class" />
+        <option value="Class_With_Main" />
+        <option value="Class_With_Main_&amp;_Scan_Input" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rightlower</find>
-      <find>listSize</find>
       <find>[</find>
-      <find>]</find>
       <find>3 3 1 2 3  4 5 6  7 8 9</find>
       <find>, endTime - startTime</find>
       <find />
@@ -283,12 +302,13 @@
       <find>head</find>
       <find>ouput</find>
       <find>1000000007</find>
-      <find />
       <find>,</find>
       <find>&lt;T extends Comparable&lt;?&gt;</find>
+      <find>postorder</find>
+      <find>InOrder</find>
+      <find>]</find>
     </findStrings>
     <replaceStrings>
-      <replace />
       <replace>rowTwo</replace>
       <replace>rowThree</replace>
       <replace>&quot;THE POINTERS ARE : &quot; +top + &quot; &quot; + bottom + &quot; &quot;  + left + &quot; &quot; + right</replace>
@@ -317,6 +337,8 @@
       <replace>headCache</replace>
       <replace>output</replace>
       <replace>MOD</replace>
+      <replace>inOrder</replace>
+      <replace>PreOrder</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/algorithmsBasics</dir>
@@ -340,13 +362,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Questions/ThreeSumZero.java" />
-        <option value="$PROJECT_DIR$/src/Questions/IntersectionOfSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/Questions/ContainerWithMostWater.java" />
-        <option value="$PROJECT_DIR$/src/Questions/SortByColor.java" />
-        <option value="$PROJECT_DIR$/src/Questions/KthSmallestElement.java" />
-        <option value="$PROJECT_DIR$/src/algorithmsBasics/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/algorithmsBasics/ListNode.java" />
         <option value="$PROJECT_DIR$/src/Questions/KReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Questions/AddTwoNumAsLinkedLists.java" />
         <option value="$PROJECT_DIR$/src/Questions/InsertionSortLinkedList.java" />
@@ -391,6 +406,13 @@
         <option value="$PROJECT_DIR$/src/Questions/BTreePrinterTest.java" />
         <option value="$PROJECT_DIR$/src/Questions/BTreePrint.java" />
         <option value="$PROJECT_DIR$/src/Questions/isBST.java" />
+        <option value="$PROJECT_DIR$/src/Questions/InOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Questions/PreOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Questions/PostOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Questions/VerticalOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Questions/IsBalancedBST.java" />
+        <option value="$PROJECT_DIR$/src/Questions/IdenticalBST.java" />
+        <option value="$PROJECT_DIR$/src/Questions/IsSymmetricTree.java" />
       </list>
     </option>
   </component>
@@ -414,8 +436,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -444,6 +464,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -484,15 +506,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.isBST">
-    <configuration name="AllUniquePermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.IsSymmetricTree">
+    <configuration name="IdenticalBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.AllUniquePermutations" />
+      <option name="MAIN_CLASS_NAME" value="Questions.IdenticalBST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -504,14 +526,14 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IsBalancedBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.Subsets" />
+      <option name="MAIN_CLASS_NAME" value="Questions.IsBalancedBST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -523,14 +545,14 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="SumtheDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IsSymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.SumtheDifference" />
+      <option name="MAIN_CLASS_NAME" value="Questions.IsSymmetricTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -542,14 +564,33 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PreOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.TreeNode" />
+      <option name="MAIN_CLASS_NAME" value="Questions.PreOrderTraversal" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled1" />
+      <envs />
+    </configuration>
+    <configuration name="VerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Questions.VerticalOrderTraversal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -588,39 +629,20 @@
       <module name="untitled1" />
       <envs />
     </configuration>
-    <configuration name="isBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Questions.isBST" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled1" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AllUniquePermutations" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TreeNode" />
-      <item index="2" class="java.lang.String" itemvalue="Application.isBST" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SumtheDifference" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Subsets" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PreOrderTraversal" />
+      <item index="1" class="java.lang.String" itemvalue="Application.VerticalOrderTraversal" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IsBalancedBST" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IdenticalBST" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IsSymmetricTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.isBST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SumtheDifference" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Subsets" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TreeNode" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AllUniquePermutations" />
+        <item index="0" class="java.lang.String" itemvalue="Application.IsSymmetricTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IdenticalBST" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IsBalancedBST" />
+        <item index="3" class="java.lang.String" itemvalue="Application.VerticalOrderTraversal" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PreOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -675,18 +697,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4002751" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27372766" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28432956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28836834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38376892" sideWeight="0.49353796" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1388,9 +1410,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Questions/isBST.java</url>
-          <line>66</line>
+          <line>107</line>
           <properties />
           <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/PostOrderTraversal.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/InOrderTraversal.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/VerticalOrderTraversal.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/IdenticalBST.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="296" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Questions/practice/RotateMatrix.java</url>
@@ -1449,7 +1495,7 @@
           <option name="timeStamp" value="224" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="287" />
+      <option name="time" value="297" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1484,59 +1530,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/BasicsPractice/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/BasicsPractice/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/BasicsPractice/BigDog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kanav/oopBasics/BasicsPractice/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/ImplementPowerFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="102" column="27" lean-forward="false" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/RotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/AllFactors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="19" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Questions/RotatedArraySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-258">
@@ -1903,50 +1896,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/BTreePrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/BTreePrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#699#705#0" expanded="true" />
-            <element signature="e#2067#2076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Questions/isBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Questions/Subsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="900">
           <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="31" />
           <folding />
         </state>
@@ -1960,6 +1912,128 @@
             <element signature="e#6595#6604#0" expanded="true" />
             <marker date="1513605494000" expanded="false" signature="5828:5837" ph="&lt;~&gt;" />
             <marker date="1513605494000" expanded="false" signature="6483:6773" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#prettyPrintTree#0;class#TreeNode#0" expanded="false" />
+            <element signature="method#print2DUtil#0;class#TreeNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/BTreePrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#699#705#0" expanded="true" />
+            <element signature="e#2067#2076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/BTreePrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/InOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="method#inOrderTraversal#0;class#InOrderTraversal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/PreOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="85" column="5" lean-forward="false" selection-start-line="68" selection-start-column="66" selection-end-line="85" selection-end-column="5" />
+          <folding>
+            <element signature="method#PreOrderTraversal#0;class#PreOrderTraversal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/PostOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="34" selection-end-column="2" />
+          <folding>
+            <element signature="method#main#0;class#PostOrderTraversal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/isBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MaxorMin#0;class#isBST#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/VerticalOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4981#4990#0" expanded="true" />
+            <element signature="e#6331#6351#0" expanded="true" />
+            <element signature="e#6479#6508#0" expanded="true" />
+            <element signature="e#7332#7352#0" expanded="true" />
+            <element signature="e#7443#7453#0" expanded="true" />
+            <element signature="e#7506#7515#0" expanded="true" />
+            <element signature="e#7629#7658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/IsBalancedBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="e#916#925#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2577#2578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/IdenticalBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Questions/IsSymmetricTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="e#1825#1835#0" expanded="true" />
+            <element signature="e#1885#1895#0" expanded="true" />
           </folding>
         </state>
       </provider>
