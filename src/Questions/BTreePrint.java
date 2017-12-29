@@ -2,15 +2,6 @@ package Questions;
 
 import java.util.*;
 
-class Node<T extends Comparable<?>> {
-    Node<T> left, right;
-    T data;
-
-    public Node(T data) {
-        this.data = data;
-    }
-}
-
 public class BTreePrint {
 
     public static <T extends Comparable<?>> void printNode(Node<T> root) {

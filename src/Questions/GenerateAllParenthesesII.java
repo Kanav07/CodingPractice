@@ -24,7 +24,7 @@ Make sure the returned list of strings are sorted.
 public class GenerateAllParenthesesII {
     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
-        int  input = 10;
+        int  input = 2;
 
 //        ArrayList<Integer> inputList = new ArrayList<Integer>();
 //        for (int i = 0; i < inputListSize; i++) {
@@ -37,6 +37,8 @@ public class GenerateAllParenthesesII {
         long end = System.nanoTime();
         for (String s : output) System.out.println(s);
         System.out.println("\nTime taken : " + (end - start));
+
+
 
     }
 
@@ -71,6 +73,8 @@ public class GenerateAllParenthesesII {
             }
 
     }
+
+
 
 }
 

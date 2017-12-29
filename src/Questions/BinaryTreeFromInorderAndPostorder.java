@@ -67,6 +67,14 @@ public class BinaryTreeFromInorderAndPostorder {
         long end = System.nanoTime();
         System.out.println("\nTime taken : " + (end - start));
 
+
+         start = System.nanoTime();
+        //call function here.....
+         root = buildTree2(inputList1,inputList2);
+        System.out.println(PreOrderTraversal.PreOrderTraversal(root));
+         end = System.nanoTime();
+        System.out.println("\nTime taken : " + (end - start));
+
     }
 
     public static TreeNode buildTree(ArrayList<Integer> inorder, ArrayList<Integer> postorder) {
@@ -76,13 +84,26 @@ public class BinaryTreeFromInorderAndPostorder {
         int i = 0;
         while (inorder.get(i).intValue() != rootVal ) i++;
 
-
         TreeNode curr = new TreeNode(rootVal);
         curr.left = buildTree(new ArrayList<Integer>(inorder.subList(0,i)),
                 new ArrayList<Integer>(postorder.subList(0,i)));
         curr.right = buildTree(new ArrayList<Integer>(inorder.subList(i+1,inorder.size())),
                 new ArrayList<Integer>(postorder.subList(i,postorder.size()-1)));
         return curr;
+    }
+
+    public static TreeNode buildTree2(ArrayList<Integer> preorder, ArrayList<Integer> inorder) {
+        if( inorder.size() ==0 || preorder.size()==0) return null;
+
+        TreeNode root = new TreeNode(preorder.get(0));
+        int i=0;
+        while (inorder.get(i).intValue() != root.val ) i++;
+        preorder.remove(0);
+
+        root.left = buildTree2(new ArrayList<Integer>(preorder.subList(0,i)),new ArrayList<Integer>(inorder.subList(0,i)));
+        root.right = buildTree2(new ArrayList<Integer>(preorder.subList(i,preorder.size())),new ArrayList<Integer>(inorder.subList(i+1,inorder.size())));
+
+        return root;
     }
 
 
