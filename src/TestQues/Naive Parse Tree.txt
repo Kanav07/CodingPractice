@@ -1,0 +1,55 @@
+Input: 
+My name is Ravi
+
+Output :
+NounNodeID = 1
+1--PersonType--1stPerson
+(where 1 is 'source', PersonType is 'attribute' and 1stPerson is 'target')
+1--Name--Ravi
+
+
+Input:
+Ravi is my name
+
+Output :
+NounNodeID = 1
+1--PersonType--1stPerson
+1--Name--Ravi
+
+
+Input:
+Name : Ravi
+
+Output :
+NounNodeID = 1
+1--PersonType--3rdPerson
+1--Name--Ravi
+
+Input:
+Ravi met Sidharth
+
+Output :
+NounNodeID = 1
+1--PersonType--3rdPerson
+1--Name--Ravi
+NounNodeID = 2
+2--PersonType--3rdPerson
+2--Name--Sidharth
+1--met--2
+
+Edge cases:
+Names can be spelt any way user likes
+Words such as 'name, met, is, my' will be spelt always like that
+
+How we want it implemented :
+There could be 1000s of words and 1000s upon 1000s of combinations in which those words could be arranged together to form sentences. Hence we cannot hardwire in our code the 'attribute' words or basically any word.
+
+The words, and their tendencies should be stored somehow in a configuration file or database.
+
+Words such as 'my' will have tendency that 'PersonType' attribute must refer to '1stPerson' target. Word such as 'met' should have tendency that it expects Nouns - one on the left, one on the right. Left noun one becomes source, right noun becomes target.
+
+The list of words, and their tendencies should be stored into a database or configuration file. So that as words and their tendencies increase in our database, our sentence parser should improvize its ability to handle more and more sentences
+
+
+Met Life Insurance - should not return any noun. Because we would have training that 'met' is a verb, 'life' and 'insurance' are noun but never used as a name.
+I am Ravi. I met Shyam - should return 2 noun. With 'name' equal to 'Ram' and 'Shyam'. Later 1--met--2 relationship must be established
