@@ -64,11 +64,24 @@ public class LeastCommonAncestor {
         TreeNode root = TreeNode.InsertIntoTree(inputList);
         Node root2 = BTreePrint.InsertIntoTree(inputList);
 
-        //BTreePrint.printNode(root2);
+        BTreePrint.printNode(root2);
         long start = System.nanoTime();
         //call function here.....
         System.out.println(lca(root,B,C));
         long end = System.nanoTime();
+        System.out.println("\nTime taken : " + (end - start));
+
+
+         start = System.nanoTime();
+        //call function here.....
+        System.out.println(lcaQuickerPathsMethod(root,B,C));
+         end = System.nanoTime();
+        System.out.println("\nTime taken : " + (end - start));
+
+        start = System.nanoTime();
+        //call function here.....
+        System.out.println(lcaQuickerTraversalMethod(root,B,C));
+        end = System.nanoTime();
         System.out.println("\nTime taken : " + (end - start));
 
     }
@@ -106,8 +119,80 @@ public class LeastCommonAncestor {
 
         return false;
     }
+
+    public static int lcaQuickerPathsMethod(TreeNode A, int B, int C) {
+
+        if( A == null) return -1;
+
+        ArrayList<Integer> pathB = new ArrayList<Integer>();
+        ArrayList<Integer> pathC = new ArrayList<Integer>();
+        if ( !findPath(A,B,pathB) || !findPath(A,C,pathC) ) return -1;
+
+        int i;
+        for ( i = 0; i < pathB.size() && i < pathC.size(); i++) {
+            if ( pathB.get(i) == pathC.get(i)) continue;
+            else break;
+        }
+        return pathB.get(i-1);
+
+    }
+
+    public static boolean findPath( TreeNode a, int target, ArrayList<Integer> path){
+
+        if( a == null) return false;
+
+        path.add(a.val);
+
+        if ( a.val == target) return true;
+
+        if ( findPath(a.left,target,path)) return true;
+        if ( findPath(a.right,target,path)) return true;
+
+        path.remove(path.size()-1);
+        return false;
+    }
+
+
+    public static int lcaQuickerTraversalMethod(TreeNode A, int B, int C) {
+
+
+        if( A == null) return -1;
+
+        TreeNode result = lcaTraversal(A,B,C);
+
+        if ( result== null) return -1;
+        else return result.val;
+    }
+
+    private static TreeNode lcaTraversal(TreeNode a, int b, int c) {
+
+        if ( a == null )return null;
+
+        if ( a.val == b || a.val == c) return a;
+
+        TreeNode t1 = lcaTraversal(a.left,b,c);
+        TreeNode t2 = lcaTraversal(a.right,b,c);
+
+        if ( t1!=null && t2!=null )return a;
+        else if (t1 != null ) return t1;
+        else if (t2 != null ) return t2;
+        else return null;
+    }
 }
 
 /* SOLUTION APPROACH
+
+       6
+      / \
+   2       8
+  / \     / \
+ /   \   /   \
+ 1   4   7   9
+/   / \       \
+0   3 5       10
+
+173 :  N 2, 1 12
+174 :  N 4, 1 12   t1 = N1 t2 = null
+
 
 */

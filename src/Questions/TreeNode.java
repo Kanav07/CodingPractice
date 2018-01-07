@@ -3,16 +3,16 @@ package Questions;
 import javax.transaction.TransactionRequiredException;
 import java.util.*;
 
-public class TreeNode {
+    public class TreeNode {
 
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode next;
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode next;
 
-    TreeNode(int x) {
-        val = x;
-    }
+        TreeNode(int x) {
+            val = x;
+        }
 
     public static TreeNode InsertIntoTree(ArrayList<Integer> list){
         TreeNode root = null,current = null;
