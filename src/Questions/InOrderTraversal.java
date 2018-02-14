@@ -24,6 +24,9 @@ My Code :
 
 7 4 -1 5 3 -1 -1 -1
 
+
+23 6 2 8 1 4 7 9 0 -1 3 5 -1 -1 -1 10 -1 -1 -1 -1 -1 -1 -1 -1
+
 */
 
 public class InOrderTraversal {
@@ -40,7 +43,7 @@ public class InOrderTraversal {
         TreeNode root = TreeNode.InsertIntoTree(inputList);
         Node root2 = BTreePrint.InsertIntoTree(inputList);
 
-        //BTreePrint.printNode(root2);
+        BTreePrint.printNode(root2);
 
         long start = System.nanoTime();
         //call function here.....
@@ -63,6 +66,30 @@ public class InOrderTraversal {
         end = System.nanoTime();
         for (Integer x : output) System.out.print(x + " ");
         System.out.println("\nTime taken : " + (end - start));
+
+
+        start = System.nanoTime();
+        //call function here.....
+        output = inorderConstantSpace(root);
+        end = System.nanoTime();
+        for (Integer x : output) System.out.print(x + " ");
+        System.out.println("\nTime taken : " + (end - start));
+
+
+        start = System.nanoTime();
+        //call function here.....
+        output = inorderTraversalIterative2(root);
+        end = System.nanoTime();
+        for (Integer x : output) System.out.print(x + " ");
+        System.out.println("\nTime taken : " + (end - start));
+
+        start = System.nanoTime();
+        //call function here.....
+        output = inorderTraversalIterativeReverse(root);
+        end = System.nanoTime();
+        for (Integer x : output) System.out.print(x + " ");
+        System.out.println("\nTime taken : " + (end - start));
+
 
     }
 
@@ -133,6 +160,87 @@ public class InOrderTraversal {
         }
 
         return result;
+    }
+
+    public static ArrayList<Integer> inorderTraversalIterative2(TreeNode root){
+        ArrayList<Integer> res = new ArrayList<Integer>();
+        Stack<TreeNode> st = new Stack<TreeNode>();
+        TreeNode curr = null;
+
+        if( root.left!=null) {
+            st.push(root);
+            curr = root.left;
+        } else st.push(root);
+
+        while (curr!=null || !st.isEmpty()){
+            if(curr!=null && curr.left!=null) {
+                st.push(curr);
+                curr = curr.left;
+            } else {
+                if(curr==null && !st.isEmpty()) curr = st.pop();
+                if(curr!=null) {
+                    res.add(curr.val);
+                    curr = curr.right;
+                }
+            }
+        }
+        return res;
+    }
+
+
+    public static ArrayList<Integer> inorderTraversalIterativeReverse(TreeNode root){
+        ArrayList<Integer> res = new ArrayList<Integer>();
+        Stack<TreeNode> st = new Stack<TreeNode>();
+        TreeNode curr = null;
+
+        if( root.right!=null) {
+            st.push(root);
+            curr = root.right;
+        } else st.push(root);
+
+        while (curr!=null || !st.isEmpty()){
+            if(curr!=null && curr.right!=null) {
+                st.push(curr);
+                curr = curr.right;
+            } else {
+                if(curr==null && !st.isEmpty()) curr = st.pop();
+                if(curr!=null) {
+                    res.add(curr.val);
+                    curr = curr.left;
+                }
+            }
+        }
+        return res;
+    }
+
+    //Inorder Traversal without stack without recursion - Morris Traversal
+
+    public static ArrayList<Integer> inorderConstantSpace(TreeNode root){
+        ArrayList<Integer> res = new ArrayList<Integer>();
+        TreeNode curr= root, pre;
+
+        while (curr!=null){
+            if(curr.left==null){
+                res.add(curr.val);
+                curr= curr.right;
+            } else{
+
+                pre = curr.left;
+                while (pre.right!=null && pre.right!=curr  ) pre = pre.right;
+
+                if( pre.right==null) {
+                    pre.right = curr;
+                    curr = curr.left;
+                }
+                else {
+                    pre.right= null;
+                    res.add(curr.val);
+                    curr= curr.right;
+                }
+
+            }
+        }
+        return res;
     }
 }
 

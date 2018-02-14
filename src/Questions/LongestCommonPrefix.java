@@ -1,7 +1,8 @@
 package Questions;
 
 import java.util.ArrayList;
-import java.util.Scanner; 
+import java.util.Scanner;
+import java.util.TreeMap;
 
 /* QUESTION
 Write a function to find the longest common prefix string amongst an array of strings.
@@ -91,6 +92,8 @@ public class LongestCommonPrefix {
        }
        return prefix.toString();
     }
+
+
 }
 
 /* SOLUTION APPROACH

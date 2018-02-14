@@ -144,6 +144,27 @@ public class LongestPalindromeSubstring {
 
 /* SOLUTION APPROACH
 
+
+
+Method 2 ( Dynamic Programming )
+        The time complexity can be reduced by storing results of subproblems. The idea is similar to this post. We maintain a boolean table[n][n] that is filled in bottom up manner. The value of table[i][j] is true, if the substring is palindrome, otherwise false. To calculate table[i][j], we first check the value of table[i+1][j-1], if the value is true and str[i] is same as str[j], then we make table[i][j] true. Otherwise, the value of table[i][j] is made false
+
+
+        Time complexity: O ( n^2 )
+        Auxiliary Space: O ( n^2 )
+
+Method 3 ( Constant Space )
+
+    We can find the longest palindrome substring in (n^2) time with O(1) extra space. The idea is to generate all even length and odd length palindromes and keep track of the longest palindrome seen so far.
+
+    Step to generate odd length palindrome:
+    Fix a centre and expand in both directions for longer palindromes.
+
+    Step to generate even length palindrome
+    Fix two centre ( low and high ) and expand in both directions for longer palindromes.
+
+    Time complexity: O ( n^2 ) where n is the length of input string.
+    Auxiliary Space: O ( 1 )
 */
 
 
